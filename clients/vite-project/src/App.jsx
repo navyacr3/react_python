@@ -6,7 +6,12 @@ function App() {
 
   return (
     <>
-     book project
+     Book Website
+     <div>
+      <input type="text" name="name" id="name" placeholder='Book name' />
+      <input type="number" name="release" id="release" placeholder='Release date'/>
+      <button>Add Book</button>
+     </div>
     </>
   )
 }
